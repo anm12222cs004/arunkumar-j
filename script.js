@@ -40,7 +40,7 @@ function displayWeather(data) {
     weatherResult.innerHTML = `
 <h2>${data.name}</h2>
 <img src="http://openweathermap.org/img/wn/${icon}.png" alt="${description}">
-<p>Temperature: ${temperature} °C</p>
+<p>Temperature: ${temperature} Â°C</p>
 <p>Humidity: ${humidity} %</p>
 <p>Description: ${description.charAt(0).toUpperCase() + description.slice(1)}</p>
     `;
